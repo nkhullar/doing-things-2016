@@ -15,9 +15,9 @@ public class TempConverter{
 	 convert = inputConvert.next();
 
 		 if(convert.equals("F")){
-		 	System.out.println("The conversion to Farenheight is: " + CToF(temp) + "F");
+		 	System.out.println("The conversion to Farenheight is: " + CToF(temp) + " F");
 		 } else {
-		 	System.out.println("The conversion to Celcius is: " + FToC(temp) + "C");
+		 	System.out.println("The conversion to Celcius is: " + FToC(temp) + " C");
 		 }
 	}
 
